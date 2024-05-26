@@ -658,6 +658,17 @@ a {
   padding:5px;
 }
 
+.whatsappIconContainer {
+  position: fixed;
+  z-index: 500;
+  bottom: 30px;
+  right: 30px;
+}
+
+.whatsappIconContainer:hover {
+  cursor: pointer;
+}
+
 /*
  *	Gallery detail page css
  *	---------------------------------------------

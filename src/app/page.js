@@ -9,6 +9,7 @@ import Services from "@/components/services";
 import UpcomingEvents from "@/components/upcomingEvents";
 import { getEvents, getPastEvents } from "@/services/event";
 import { getEventAndParties } from "@/services/eventAndParties";
+import WhatsAppIcon from "@/components/whatsappIcon";
 import Link from "next/link";
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default async function Home() {
   return (
     <>
       <MainSlider />
+      <WhatsAppIcon />
       <main id="tt-pageContent no-section-marker">
         <About />
         <div className="section-indent01">
