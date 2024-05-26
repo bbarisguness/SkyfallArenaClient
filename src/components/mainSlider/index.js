@@ -2,16 +2,17 @@
 
 import { Zoom } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import Link from 'next/link'
 
 export default function MainSlider() {
 	let mainSliderPhotos, root, activeIndex = 0
+	const [activePhotoIndex, setActivePhotoIndex] = useState(0)
 
 	const images = [
 		"mainslide-01.jpg",
-		"mainslide-02.jpg",
 		"mainslide-03.jpg",
+		"mainslide-04.jpg",
 	];
 
 	const hideVipTextMask = () => {
@@ -41,6 +42,7 @@ export default function MainSlider() {
 	}
 
 	const changeMainSlider = () => {
+		setActivePhotoIndex(activeIndex)
 		resetSlider()
 
 		mainSliderPhotos[activeIndex].style.display = "block"
@@ -106,11 +108,16 @@ export default function MainSlider() {
 			<div id="js-mainSlider" className="mainSlider slick-initialized slick-slider">
 				<div className="slick-list draggable">
 					<div className="slide">
-						<div className="img--holder" style={{ backgroundImage: 'url(images/mainslide-01.jpg)', display: 'none' }}></div>
+						{/* <div className="img--holder" style={{ backgroundImage: 'url(images/mainslide-01.jpg)', display: 'none' }}></div>
 						<div className="img--holder" style={{ backgroundImage: 'url(images/mainslide-03.jpg)', display: 'none' }}></div>
-						<div className="img--holder" style={{ backgroundImage: 'url(images/mainslide-04.jpg)', display: 'none' }}></div>
+						<div className="img--holder" style={{ backgroundImage: 'url(images/mainslide-04.jpg)', display: 'none' }}></div> */}
+						{
+							images.map((item, index) => (
+								<div key={'sliderImage' + index + 1} className="img--holder" style={{ backgroundImage: `url(images/${item})`, display: 'none' }}></div>
+							))
+						}
 						<div className="slide-content">
-							<div className="mainSlider-textmask" style={{ backgroundImage: 'url(images/mainslide-01.jpg)' }}>VIP</div>
+							<div className="mainSlider-textmask" style={{ backgroundImage: `url(images/${images[activePhotoIndex]})` }}>VIP</div>
 							<div className="container text-center js-rotation" data-animation="fadeInUpSm" data-animation-delay="0s">
 								<div className="tt-title-01">The Perfect Nightlife</div>
 								<div className="tt-title-02">FEEL THE NIGHT HERE<br />With Friends</div>
