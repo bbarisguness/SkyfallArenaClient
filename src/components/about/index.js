@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export default function About() {
     return (
-        <div className="section-indent02">
+        <div className="section-indent02 no-margin">
             <div className="container-fluid no-gutters section-marker">
                 <div className="events-wide-list">
                     <div className="events-wide">
