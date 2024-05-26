@@ -111,8 +111,8 @@ export default function Residents({ pastEvents }) {
                         </div>
                         <div className="tt-col">
                             <div className="promo02_rowbtn">
-                                <a href="#" className="tt-btn tt-btn__wide" data-toggle="modal" data-target="#modalVipTables"><span>book VIP table</span></a>
-                                <a href="#" className="tt-btn tt-btn__wide" data-toggle="modal" data-target="#modalPrivateEvent"><span>private party</span></a>
+                                {/* <a href="#" className="tt-btn tt-btn__wide" data-toggle="modal" data-target="#modalVipTables"><span>book VIP table</span></a> */}
+                                <a href="https://api.whatsapp.com/send?phone=5317241934" target="_blank" className="tt-btn tt-btn__wide" data-toggle="modal" data-target="#modalPrivateEvent"><span>WhatsApp</span></a>
                             </div>
                         </div>
                     </div>
