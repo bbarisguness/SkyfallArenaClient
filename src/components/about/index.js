@@ -2,10 +2,10 @@ import Link from "next/link"
 
 export default function About() {
     return (
-        <div className="section-indent02 no-margin">
+        <div className="section-indent02 no-margin" style={{ marginTop: "50px" }}>
             <div className="container-fluid no-gutters section-marker">
                 <div className="events-wide-list">
-                    <div className="events-wide">
+                    {/* <div className="events-wide">
                         <div className="events-wide__img">
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="js-video-popup lazyload" target="_blank" style={{ backgroundImage: "url('../../../images/events-wide01.jpg')" }}>
                                 <span className="tt-text tt-text__right">Night CLub</span>
@@ -29,11 +29,11 @@ export default function About() {
                                 <Link href="/events-parties" className="tt-btn tt-btn_color02"><span>know more</span></Link>
                             </div>
                         </div>
-                    </div>
-                    <div className="events-wide tt-item__revers">
+                    </div> */}
+                    <div className="events-wide tt-item__revers" style={{ flexDirection: 'row-reverse' }}>
                         <div className="events-wide__img">
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="js-video-popup lazyload" target="_blank" style={{ backgroundImage: "url('../../../images/events-wide02.jpg')" }}>
-                                <span className="tt-text tt-text__left">Day CLub</span>
+                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="js-video-popup lazyload" target="_blank" style={{ backgroundImage: "url('../../../images/events-wide01.jpg')" }}>
+                                <span className="tt-text tt-text__left">Night Club</span>
                                 <span className="tt-icon"></span>
                             </a>
                         </div>

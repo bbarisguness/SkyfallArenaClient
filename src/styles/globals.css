@@ -11349,7 +11349,6 @@
  }
  .events-wide .events-wide__img a {
    display: block;
-   margin-top: 50px;
    height: 531px;
    width: 100%;
    background-repeat: no-repeat;
@@ -11360,7 +11359,7 @@
    font-family: "Poppins", sans-serif;
    letter-spacing: -0.03em;
    font-weight: bold;
-   font-size: 96px;
+   font-size: 90px;
    line-height: 105%;
    color: #ffffff;
    text-transform: uppercase;
@@ -27825,30 +27824,6 @@ body.is-loaded .loading-content {
   max-width: 46%;
   overflow: hidden;
 }
-.events-wide .events-wide__img a {
-  display: block;
-  margin-top: 50px;
-  height: 531px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.events-wide .events-wide__img .tt-text {
-  font-family: "Poppins", sans-serif;
-  letter-spacing: -0.03em;
-  font-weight: bold;
-  font-size: 96px;
-  line-height: 105%;
-  color: #ffffff;
-  text-transform: uppercase;
-  -webkit-writing-mode: vertical-lr;
-  -ms-writing-mode: tb-lr;
-  writing-mode: vertical-lr;
-  display: block;
-  position: absolute;
-  white-space: nowrap;
-}
 .events-wide .events-wide__img .tt-text.tt-text__right {
   right: -17px;
   top: 0px;
@@ -27935,11 +27910,6 @@ body.is-loaded .loading-content {
 }
 .events-wide.tt-item__revers .events-wide_wrapper {
   float: right;
-}
-@media only screen and (max-width: 1600px) {
-  .events-wide .events-wide__img .tt-text {
-    font-size: 90px;
-  }
 }
 @media only screen and (max-width: 1500px) {
   .events-wide:not(.tt-item__revers) .events-wide__content {
