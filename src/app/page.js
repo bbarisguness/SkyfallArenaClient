@@ -2,7 +2,7 @@ import About from "@/components/about";
 //import AdditionalServices from "@/components/additionalServices";
 import Gallery from "@/components/gallery";
 import MainSlider from "@/components/mainSlider";
-import Promo from "@/components/promo";
+//import Promo from "@/components/promo";
 import Residents from "@/components/residents";
 import Services from "@/components/services";
 //import UnderResidents from "@/components/underResidents";
@@ -23,7 +23,7 @@ export default async function Home() {
   return (
     <>
       <MainSlider />
-      <main id="tt-pageContent">
+      <main id="tt-pageContent no-section-marker">
         <About />
         <div className="section-indent01">
           <div className="container">
@@ -40,7 +40,7 @@ export default async function Home() {
         <Residents pastEvents={pastEvents} />
         {/* <UnderResidents /> */}
         <Gallery />
-        <Promo />
+        {/* <Promo /> */}
       </main>
     </>
   );
