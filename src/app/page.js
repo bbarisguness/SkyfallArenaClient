@@ -1,5 +1,5 @@
 import About from "@/components/about";
-import AdditionalServices from "@/components/additionalServices";
+//import AdditionalServices from "@/components/additionalServices";
 import Gallery from "@/components/gallery";
 import MainSlider from "@/components/mainSlider";
 import Promo from "@/components/promo";
@@ -36,7 +36,7 @@ export default async function Home() {
           <UpcomingEvents events={events} />
         </div>
         <Services parties={parties} />
-        <AdditionalServices />
+        {/* <AdditionalServices /> */}
         <Residents pastEvents={pastEvents} />
         <UnderResidents />
         <Gallery />

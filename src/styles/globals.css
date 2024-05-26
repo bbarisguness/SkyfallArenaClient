@@ -10534,11 +10534,6 @@
    background: #3c3b41 url("../../public/images/promo02.jpg") 0 0 no-repeat;
    overflow: hidden;
  }
- @media only screen and (min-width: 1025px) {
-   .section-wrapper01 {
-     margin-top: -50px;
-   }
- }
  @media only screen and (max-width: 1024px) {
    .section-wrapper01 {
      margin-top: -30px;
@@ -27072,11 +27067,6 @@ hr {
 .section-wrapper01 {
   background: #3c3b41 url("../../public/images/promo02.jpg") 0 0 no-repeat;
   overflow: hidden;
-}
-@media only screen and (min-width: 1025px) {
-  .section-wrapper01 {
-    margin-top: -50px;
-  }
 }
 @media only screen and (max-width: 1024px) {
   .section-wrapper01 {

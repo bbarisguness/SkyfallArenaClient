@@ -35,7 +35,7 @@ const responsiveSettings = [
         }
     },
     {
-        breakpoint: 300,
+        breakpoint: 5,
         settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -74,7 +74,7 @@ export default function Residents({ pastEvents }) {
     }, [width])
 
     return (
-        <div className="section-wrapper01">
+        <div className="section-wrapper01" style={{ marginTop: "50px" }}>
 
             <div className="promo02">
                 <div className="promo02__img">
