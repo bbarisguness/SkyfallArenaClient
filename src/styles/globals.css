@@ -10222,10 +10222,6 @@
    }
  }
  @media only screen and (max-width: 767px) {
-   #subtitle-wrapper {
-     top: 97px;
-     height: 154px;
-   }
    #subtitle-wrapper .subtitle__title {
      font-size: 34px;
      line-height: 37px;
@@ -26632,20 +26628,6 @@ hr {
 .tt-menu-slider {
   max-height: 389px;
 }
-
-#subtitle-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  width: 100%;
-  height: 194px;
-  position: fixed;
-  top: 98px;
-  z-index: 1;
-}
 #subtitle-wrapper + #tt-pageContent {
   background-color: #ffffff;
   padding-top: 0px;
@@ -26712,10 +26694,6 @@ hr {
   }
 }
 @media only screen and (max-width: 767px) {
-  #subtitle-wrapper {
-    top: 97px;
-    height: 154px;
-  }
   #subtitle-wrapper .subtitle__title {
     font-size: 34px;
     line-height: 37px;
