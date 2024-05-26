@@ -5,7 +5,7 @@ import MainSlider from "@/components/mainSlider";
 import Promo from "@/components/promo";
 import Residents from "@/components/residents";
 import Services from "@/components/services";
-import UnderResidents from "@/components/underResidents";
+//import UnderResidents from "@/components/underResidents";
 import UpcomingEvents from "@/components/upcomingEvents";
 import { getEvents, getPastEvents } from "@/services/event";
 import { getEventAndParties } from "@/services/eventAndParties";
@@ -38,7 +38,7 @@ export default async function Home() {
         <Services parties={parties} />
         {/* <AdditionalServices /> */}
         <Residents pastEvents={pastEvents} />
-        <UnderResidents />
+        {/* <UnderResidents /> */}
         <Gallery />
         <Promo />
       </main>

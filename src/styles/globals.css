@@ -10396,7 +10396,6 @@
  
  .section-inner {
    padding-top: 36px;
-   padding-bottom: 122px;
    position: relative;
    z-index: 2;
  }
@@ -26927,22 +26926,10 @@ hr {
     margin-top: 40px;
   }
 }
-
-.section-inner {
-  padding-top: 36px;
-  padding-bottom: 122px;
-  position: relative;
-  z-index: 2;
-}
 @media only screen and (max-width: 1024px) {
   .section-inner {
     padding-top: 0px;
     padding-bottom: 60px;
-  }
-}
-@media only screen and (max-width: 790px) {
-  .section-inner {
-    padding-bottom: 49px;
   }
 }
 

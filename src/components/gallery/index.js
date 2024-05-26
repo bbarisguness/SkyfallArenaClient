@@ -1,6 +1,6 @@
 export default function Gallery() {
     return (
-        <div className="section-marker section-marker__indent04">
+        <div className="section-marker__indent04">
             <div className="section-indent06">
                 <div className="container">
                     <div className="section-title section-title_01">
