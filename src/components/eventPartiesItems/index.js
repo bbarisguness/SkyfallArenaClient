@@ -2,6 +2,7 @@
 
 import { handlerPrivateEventModal } from "@/utils"
 import { useEffect } from "react"
+import Link from "next/link"
 
 export default function EventPartiesItems({ data }) {
     useEffect(() => {
@@ -27,7 +28,7 @@ export default function EventPartiesItems({ data }) {
                                     </div>
                                     <div className="tt-content-text">{item?.attributes?.shortDescription}</div>
                                     <div className="tt-btn-row">
-                                        <a href={`/events-parties/${item?.attributes?.slug}`} data-toggle="modal" data-target="#modalPrivateEvent" className="tt-btn-default"><span>detail</span></a>
+                                        <Link href={`/events-parties/${item?.attributes?.slug}`} data-toggle="modal" data-target="#modalPrivateEvent" className="tt-btn-default"><span>detail</span></Link>
                                     </div>
                                 </div>
                             </div>

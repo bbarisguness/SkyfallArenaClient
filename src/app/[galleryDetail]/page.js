@@ -8,7 +8,7 @@ export async function generateMetadata({ params }) {
     const eventData = await getGalleryBySlug({ slug: params.galleryDetail })
     if (eventData?.data?.length > 0) {
         return {
-            title: eventData?.data[0]?.attributes?.seo?.metaTitle,
+            title: eventData?.data[0]?.attributes?.seo?.metaTitle + " | SkyFall Arena",
             description: eventData?.data[0]?.attributes?.seo?.metaDescription,
         }
     } else {

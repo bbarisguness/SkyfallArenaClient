@@ -2,7 +2,7 @@ import TicketsSlider from "@/components/ticketsSlider";
 import { getEvents } from "@/services/event";
 
 export const metadata = {
-    title: "Events | VIP CLUBİO",
+    title: "Events | SkyFall Arena",
     description: "Events",
 };
 

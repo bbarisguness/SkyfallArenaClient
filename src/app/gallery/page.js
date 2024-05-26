@@ -2,7 +2,7 @@ import GalleryNav from "@/components/galleryNav";
 import { getGalleries } from "@/services/gallery";
 
 export const metadata = {
-    title: "Gallery | VIP CLUBİO",
+    title: "Gallery | SkyFall Arena",
     description: "Gallery",
 };
 

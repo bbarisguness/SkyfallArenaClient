@@ -2,7 +2,7 @@ import ContactForm from "@/components/contactForm";
 import NewsletterForm from "@/components/contactNewsletterForm";
 
 export const metadata = {
-  title: "SkyFall Arena",
+  title: "Contact | SkyFall Arena",
   description: "Contact",
 };
 

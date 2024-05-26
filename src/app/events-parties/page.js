@@ -2,7 +2,7 @@ import EventPartiesItems from "@/components/eventPartiesItems";
 import { getEventAndParties } from "@/services/eventAndParties";
 
 export const metadata = {
-    title: "Events & Parties | VIP CLUBİO",
+    title: "Events & Parties | SkyFall Arena",
     description: "Events and Parties",
 };
 

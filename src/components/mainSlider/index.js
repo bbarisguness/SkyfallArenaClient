@@ -3,6 +3,7 @@
 import { Zoom } from 'react-slideshow-image'
 import 'react-slideshow-image/dist/styles.css'
 import { useEffect } from "react"
+import Link from 'next/link'
 
 export default function MainSlider() {
 	let mainSliderPhotos, root, activeIndex = 0
@@ -91,9 +92,9 @@ export default function MainSlider() {
 
 			<div className="loading-content">
 				<div className="loading-dots">
-					<a href="/" className="tt-logo">
+					<Link href="/" className="tt-logo">
 						<img src="/images/skyfall-logo.png" alt="" />
-					</a>
+					</Link>
 				</div>
 			</div>
 
@@ -114,7 +115,7 @@ export default function MainSlider() {
 								<div className="tt-title-01">The Perfect Nightlife</div>
 								<div className="tt-title-02">FEEL THE NIGHT HERE<br />With Friends</div>
 								<div className="tt-row-btn">
-									<a className="tt-btn" href="/events"><span>view tickets</span></a>
+									<Link className="tt-btn" href="/events"><span>view tickets</span></Link>
 									{/* <a className="tt-btn js-video-popup" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"><span>virtual tour</span></a> */}
 								</div>
 							</div>
