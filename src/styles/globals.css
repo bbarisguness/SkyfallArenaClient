@@ -16485,21 +16485,6 @@
    width: 148px;
    height: auto;
  }
- @media only screen and (max-width: 1024px) {
-   .f-logo {
-     margin-top: 25px;
-   }
-   .f-logo .tt-logo > * {
-     width: 94px;
-     height: auto;
-   }
- }
- @media only screen and (max-width: 575px) {
-   .f-logo .tt-logo > * {
-     width: 78px;
-     height: auto;
-   }
- }
  
  .f-col {
    margin-top: 26px;
@@ -32752,13 +32737,13 @@ form {
     margin-top: 25px;
   }
   .f-logo .tt-logo > * {
-    width: 94px;
+    width: 50%;
     height: auto;
   }
 }
 @media only screen and (max-width: 575px) {
   .f-logo .tt-logo > * {
-    width: 78px;
+    width: 75%;
     height: auto;
   }
 }
