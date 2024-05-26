@@ -1,7 +1,6 @@
 'use client'
 import Link from "next/link"
 import { useEffect, useRef, useState } from "react"
-import { handlerPrivateEventModal, handlerVipTableModal } from "@/utils";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
@@ -174,13 +173,6 @@ export default function Header() {
                             </ul>
                             <div ref={lineRef} id="tt-nav__line"></div>
                         </nav>
-                    </div>
-                    <div className="tt-col">
-                        <ul className="nav-btn">
-                            <li onClick={() => handlerPrivateEventModal(true)}><a href={undefined}><i className="icon-private"></i><span className="tt-text">private <span className="short-hide">events</span></span></a></li>
-                            <li onClick={() => handlerVipTableModal(true)}><a href={undefined} data-toggle="modal" data-target="#modalVipTables"><i className="icon-tables"></i><span className="tt-text"><span className="short-hide">VIP</span> tables</span></a></li>
-                            {/* <li className="tablet-visible" data-toggle="modal" data-target="#modalChat"><a href="#"><i className="icon-chat"></i><span className="tt-text">chat</span></a></li> */}
-                        </ul>
                     </div>
                     <div className="tt-col tt-col-obj">
                         {/* <div className="tt-obj tt-obj-chat tablet-hidden">

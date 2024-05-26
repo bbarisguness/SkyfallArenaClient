@@ -9409,9 +9409,6 @@
    }
  }
  @media only screen and (max-width: 767px) {
-   #tt-header {
-     top: 34px;
-   }
    #tt-header .nav-btn {
      position: fixed;
      top: 0;
@@ -10892,9 +10889,6 @@
    }
  }
  @media only screen and (max-width: 767px) {
-   .mainSlider {
-     margin-top: 98px;
-   }
  }
  
  .fadeInLeftSm {
@@ -25985,9 +25979,6 @@ hr {
   }
 }
 @media only screen and (max-width: 767px) {
-  #tt-header {
-    top: 34px;
-  }
   #tt-header .nav-btn {
     position: fixed;
     top: 0;
@@ -27392,9 +27383,6 @@ hr {
   }
 }
 @media only screen and (max-width: 767px) {
-  .mainSlider {
-    margin-top: 98px;
-  }
 }
 
 .fadeInLeftSm {
