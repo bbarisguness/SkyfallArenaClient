@@ -1,6 +1,10 @@
 "use client"
 
 import { handlerBuyTicketModal, isModalActiveById } from "@/utils";
+import { FaRegCalendar } from "react-icons/fa";
+
+
+
 import Link from "next/link";
 import { useEffect, useRef } from "react";
 import { useSelector } from "react-redux"
@@ -50,6 +54,13 @@ export default function BuyTicketModal() {
                                     <img src={`${process.env.NEXT_PUBLIC_UPLOADS_URL}${data.imgName}`} data-src="images/events-03.jpg" className=" lazyloaded" alt="" />
                                 </div>
                                 <dl className="baytickets__timing">
+                                    <dt>Date:</dt>
+                                    <dd>
+                                        <div className="tt-col">
+                                            <FaRegCalendar size={24} />
+                                        </div>
+                                        <div className="tt-col" style={{ fontSize: 16 }}>{data.date}</div>
+                                    </dd>
                                     <dt>Time:</dt>
                                     <dd>
                                         <div className="tt-col">
@@ -70,7 +81,7 @@ export default function BuyTicketModal() {
                                         </div>
                                         <div className="tt-col">{data.price}$</div>
                                     </dd>
-                                    <dt>Table:</dt>
+                                    {/* <dt>Table:</dt>
                                     <dd>
                                         <div className="tt-col">
                                             <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -78,7 +89,7 @@ export default function BuyTicketModal() {
                                             </svg>
                                         </div>
                                         <div className="tt-col">{data.table}$</div>
-                                    </dd>
+                                    </dd> */}
                                 </dl>
                             </div>
                             <div className="col-md-6 tt-col-right">
@@ -87,19 +98,19 @@ export default function BuyTicketModal() {
                                     <div className="modal-title__label">{data.subtitle}</div>
                                 </div>
                                 <div className="baytickets__timer">
-                                    <div className="tt-title">
+                                    {/* <div className="tt-title">
                                         {data.date}
-                                    </div>
+                                    </div> */}
                                     <div className="pt-countdown" data-date="2020-12-15" data-year="Yrs" data-month="Mths" data-week="WK" data-day="Days" data-hour="Hours" data-minute="Minutes"><span className="countdown-row"></span></div>
                                 </div>
                                 <div className="baytickets__description">
                                     {data.desc}
                                 </div>
-                                <ul className="baytickets__social">
+                                {/* <ul className="baytickets__social">
                                     <li><a href="#"><span className="icon-social-facebook"></span></a></li>
                                     <li><a href="#"><span className="icon-social-twitter"></span></a></li>
                                     <li><a href="#"><span className="icon-social-googleplus"></span></a></li>
-                                </ul>
+                                </ul> */}
                                 {/* <div className="row-btn">
                                     <a href="" className="tt-btn-default"><span>buy tickets</span></a>
                                     <Link href='/buy' onClick={()=>{closeBuyTicketModal()}} className="tt-btn-default"><span>buy tickets</span></Link>
