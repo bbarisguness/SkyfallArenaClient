@@ -10,4 +10,9 @@ async function getGalleryBySlug({ slug }) {
     return data
 }
 
-export { getGalleries, getGalleryBySlug }
+async function getHomePageGallery() {
+    const data = await apiRequest('GET', `/home-page-galleries?pagination[page]=1&pagination[pageSize]=8&populate[0]=image&sort[0]=line:asc`)
+    return data
+}
+
+export { getGalleries, getGalleryBySlug, getHomePageGallery }

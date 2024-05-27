@@ -1,4 +1,5 @@
-export default function Gallery() {
+export default function Gallery({ photos }) {
+    console.log(photos[0].attributes.image.data.attributes.url);
     return (
         <div className="section-marker__indent04">
             <div className="section-indent06">
@@ -11,30 +12,13 @@ export default function Gallery() {
                 </div>
                 <div className="instafeed-masonry">
                     <div className="instagram_gallery">
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram01.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram02.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram03.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram04.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram05.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram06.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram07.jpg" alt="" className="lazyload" />
-                        </a>
-                        <a href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
-                            <img src="../../images/instagram/instagram08.jpg" alt="" className="lazyload" />
-                        </a>
+                        {
+                            photos.map((item, index) => (
+                                <a key={"homeGalleryItem" + index + 1} href="https://www.instagram.com/skyfall.arena/" className="instagram-image" rel="noopener" target="_blank">
+                                    <img src={`${process.env.NEXT_PUBLIC_UPLOADS_URL + photos[index].attributes.image.data.attributes.url}`} alt="" className="lazyload" />
+                                </a>
+                            ))
+                        }
                     </div>
                 </div>
             </div>

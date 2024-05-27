@@ -11,6 +11,7 @@ import { getEvents, getPastEvents } from "@/services/event";
 import { getEventAndParties } from "@/services/eventAndParties";
 import WhatsAppIcon from "@/components/whatsappIcon";
 import Link from "next/link";
+import { getHomePageGallery } from "@/services/gallery";
 
 export const metadata = {
   title: "SkyFall Arena",
@@ -21,6 +22,7 @@ export default async function Home() {
   const events = await getEvents()
   const parties = await getEventAndParties()
   const pastEvents = await getPastEvents()
+  const homePageGallery = await getHomePageGallery()
   return (
     <>
       <MainSlider />
@@ -41,7 +43,7 @@ export default async function Home() {
         {/* <AdditionalServices /> */}
         <Residents pastEvents={pastEvents} />
         {/* <UnderResidents /> */}
-        <Gallery />
+        <Gallery photos={homePageGallery.data} />
         {/* <Promo /> */}
       </main>
     </>
