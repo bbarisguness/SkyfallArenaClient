@@ -1,5 +1,4 @@
 export default function Gallery({ photos }) {
-    console.log(photos[0].attributes.image.data.attributes.url);
     return (
         <div className="section-marker__indent04">
             <div className="section-indent06">

@@ -98,8 +98,8 @@ export default function Contact() {
                     </li>
                   </ul>
                 </div>
-                <h6 className="tt-subtitle tt-subtitle-top">Newsletter</h6>
-                <NewsletterForm />
+                {/* <h6 className="tt-subtitle tt-subtitle-top">Newsletter</h6> */}
+                {/* <NewsletterForm /> */}
               </div>
               <div className="divider d-block d-md-none"></div>
               <div className="col-md-6">
