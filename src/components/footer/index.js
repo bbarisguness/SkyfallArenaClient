@@ -36,9 +36,9 @@ export default function Footer() {
                                 <div className="f-info">
                                     <div className="f-info__icon icon-place"></div>
                                     <div className="f-info__content">
-                                        <div className="tt-title">VIP Clubio</div>
+                                        <div className="tt-title">SkyFall Arena</div>
                                         <address>
-                                            1035 N Sycamore <br /> Avenue Hollywood, CA 90040
+                                            Ölüdeniz Mah. Cumhuriyet Cad. No:25 Muğla/Fethiye
                                         </address>
                                     </div>
                                 </div>
