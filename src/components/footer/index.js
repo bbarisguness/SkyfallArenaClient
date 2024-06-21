@@ -60,7 +60,8 @@ export default function Footer() {
                                     <div className="f-info__content">
                                         <div className="tt-title">Working Hours</div>
                                         <address>
-                                            Mon-Fri: 9:00 am – 5:00 pm<br />Sat-Sun: 11:00 am – 16:00 pm
+                                            Her gün <br />
+                                            21:00 – 04:00
                                         </address>
                                     </div>
                                 </div>
