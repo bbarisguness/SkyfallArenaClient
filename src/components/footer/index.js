@@ -78,7 +78,8 @@ export default function Footer() {
                     </div>
                     <div className="f-copyright">
                         &copy; {new Date().getFullYear()} SkyFall Arena. All Rights Reserved.<br />
-                        <a href="#">Privacy Policy</a> &nbsp;|&nbsp; <a href="#">Terms of Service</a>
+                        {/* <a href="#">Privacy Policy</a>
+                        &nbsp;|&nbsp; <a href="#">Terms of Service</a> */}
                     </div>
                 </div>
             </div>
