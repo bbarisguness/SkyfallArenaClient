@@ -49,7 +49,7 @@ export default function Footer() {
                                     <div className="f-info__content">
                                         <div className="tt-title">Contact Phones</div>
                                         <address>
-                                            1 (800) 765-43-21, 765-43-22<br />1 (800) 765-43-23 (fax)
+                                            +90 555 333 33 33<br />
                                         </address>
                                     </div>
                                 </div>

@@ -25,7 +25,7 @@ export default function Contact() {
                 loading="lazy"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11631066.156722378!2d-2.226884674663211!3d44.62533041320563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab76145e71bcf%3A0x6fbdfe9741933bfd!2sCLUB%20IQ!5e0!3m2!1str!2str!4v1716286995447!5m2!1str!2str&z=15">
               </iframe> */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.566404556154!2d28.978443276451173!3d41.03474121779442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab76145e71bcf%3A0x6fbdfe9741933bfd!2sCLUB%20IQ!5e0!3m2!1str!2str!4v1716287465284!5m2!1str!2str" width="100%" height="100%" style={{ borderWidth: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3204.240373356839!2d29.1352276!3d36.572424899999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzbCsDM0JzIwLjciTiAyOcKwMDgnMDYuOCJF!5e0!3m2!1str!2str!4v1718963037218!5m2!1str!2str" width="100%" height="100%" style={{ borderWidth: 0 }} allowFullScreen loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
@@ -41,9 +41,10 @@ export default function Contact() {
                       <span className="icon-place"></span>
                     </div>
                     <div className="contact-info__content">
-                      <div className="tt-title">VIP Clubio</div>
+                      <div className="tt-title">
+                        SkyFall Arena</div>
                       <address>
-                        1035 N Sycamore<br /> Avenue Hollywood, CA 90040
+                        Ölüdeniz Mah. Cumhuriyet Cad. No:25 Muğla/Fethiye
                       </address>
                     </div>
                   </div>
@@ -56,7 +57,7 @@ export default function Contact() {
                     <div className="contact-info__content">
                       <div className="tt-title">Contact Phones</div>
                       <address>
-                        1 (800) 765-43-21, 765-43-22<br />1 (800) 765-43-23 (fax)
+                        +90 555 333 33 33<br />
                       </address>
                     </div>
                   </div>
@@ -69,7 +70,7 @@ export default function Contact() {
                     <div className="contact-info__content">
                       <div className="tt-title">Working Hours</div>
                       <address>
-                        Mon-Fri: 9:00 am – 5:00 pm<br />Sat-Sun: 11:00 am – 16:00 pm
+                        Her gün<br />21:00 – 04:00
                       </address>
                     </div>
                   </div>
@@ -88,13 +89,13 @@ export default function Contact() {
                   <ul className="list-02">
                     <li>
                       For more information on corporate event services, please fill out the form located here or call 765-43-22. For press inquiries email:
-                      <a className="tt-link02" href="mailto:publicrelations@vipclubio.com">publicrelations@vipclubio.com</a>
+                      <a className="tt-link02" href="mailto:skyfallarena@gmail.com">skyfallarena@gmail.com</a>
                     </li>
                     <li>
                       If you are inquiring about your items lost during your time here, please provide any identifying information of your lost items such as name, brand, colour, etc and we'll be in touch if it turns up.
                     </li>
                     <li>
-                      The management reserves the right to change drink and admission prices from time to time. Please e mail <a className="tt-link02" target="_blank" href="info@vipclubio.com">info@vipclubio.com</a> for further information.
+                      The management reserves the right to change drink and admission prices from time to time. Please e mail <a className="tt-link02" target="_blank" href="skyfallarena@gmail.com">skyfallarena@gmail.com</a> for further information.
                     </li>
                   </ul>
                 </div>
