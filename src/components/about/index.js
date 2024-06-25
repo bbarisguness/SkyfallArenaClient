@@ -32,7 +32,7 @@ export default function About() {
                     </div> */}
                     <div className="events-wide tt-item__revers" style={{ flexDirection: 'row-reverse' }}>
                         <div className="events-wide__img">
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="js-video-popup lazyload" target="_blank" style={{ backgroundImage: "url('../../../images/events-wide01.jpg')" }}>
+                            <a href="https://www.instagram.com/p/C8CvuZTIKzi/" className="js-video-popup lazyload" target="_blank" style={{ backgroundImage: "url('../../../images/events-wide03.jpg')", backgroundPosition: "center" }}>
                                 <span className="tt-text tt-text__left">Night Club</span>
                                 <span className="tt-icon"></span>
                             </a>
